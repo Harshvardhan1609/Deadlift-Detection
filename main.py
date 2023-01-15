@@ -37,15 +37,15 @@ probLabel.configure(text='PROB')
 classBox = ck.CTkLabel(window, height=40, width=120, font=(
     "Arial", 20), text_color="white", fg_color="black")
 classBox.place(x=10, y=41)
-classBox.configure(text='0')
-counterBox = ck.CTkLabel(window, height=40, width=120, font=(
-    "Arial", 20), text_color="white", fg_color="black")
-counterBox.place(x=160, y=41)
+clacounterBox.place(x=160, y=41)
 counterBox.configure(text='0')
 probBox = ck.CTkLabel(window, height=40, width=120, font=(
     "Arial", 20), text_color="white", fg_color="black")
 probBox.place(x=300, y=41)
-probBox.configure(text='0')
+probBox.configure(text='0')ssBox.configure(text='0')
+counterBox = ck.CTkLabel(window, height=40, width=120, font=(
+    "Arial", 20), text_color="white", fg_color="black")
+
 
 # Now we will reset the counter and inside this we will create counter as  global and initialize the counter with the value of 0 and this we will trigger with the button which we will create in our next step.
 
